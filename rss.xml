@@ -5,20 +5,29 @@
     <link>https://elena-ob25.github.io/exercici5.1/index.html</link>
     <description>Últimes notícies esportives</description>
     <language>ca</language>
-
-    <pubDate>Wed, 12 Feb 2025 11:30:00 GMT</pubDate>
-    <lastBuildDate>Sun, 16 Feb 2025 12:00:00 GMT</lastBuildDate>
+    <pubDate>Mon, 17 Feb 2025 11:54:00 +0100</pubDate>
+    <lastBuildDate>Mon, 17 Feb 2025 12:00:00 +0100</lastBuildDate>
     <category>Esports</category>
-    
+    <managingEditor>meolives@gmail.com(Elena Olives)</managingEditor
 
-    <item>
+     <item>
       <title>El Avarca de Menorca regna a Espanya</title>
       <link>https://elena-ob25.github.io/exercici5.1/noticia1.html</link>
       <description>Històric. El Avarca de Menorca va aconseguir aquest diumenge al migdia en un Pavelló Municipal de Ciutadella a rebentar la seva primera Copa d'SM la Reina.</description>
       <pubDate>Sun, 16 Feb 2025 12:00:00 GMT</pubDate>
       <guid>https://elena-ob25.github.io/exercici5.1/noticia1.html</guid>
       <category>Voleibol</category>
-    </item>  
+    </item> 
 
+    <item>
+      <title>El Barça de Flick desafia els dilluns en Montjuïc</title>
+      <link>https://elena-ob25.github.io/exercici5.1/noticia2.html</link>
+      <description>La mitjana d'assistència aquesta temporada al Olímpic Lluís Companys és de 45.352 espectadors i l'any passat, no es va arribar als 36.000 en els partits jugats en dilluns</description>
+      <guid>https://elena-ob25.github.io/exercici5.1/noticia2.html</guid>
+      <pubDate>Mon, 17 Feb 2025 11:54:00 +0100</pubDate>      
+      <category>Futbol</category>
+      <author>meolives@gmail.com(Elena Olives)</author>
+    </item>  
+    
   </channel>
 </rss> 
