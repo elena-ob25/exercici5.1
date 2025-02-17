@@ -1,0 +1,132 @@
+/* estil per a tota la web */
+  * {
+    padding: 5px;
+    margin: 0;
+  }
+
+/* estil per la capçalera, fons i tipus de lletra */
+  header {
+    background-color: lemonchiffon;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+/* estil per el cos de la pàgina*/
+ body {
+  width: 100%;
+ }
+
+/* estil pel menú, color de fons i tipus de lletra */
+  nav {
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+/* estil per la llista emprada per fer el menú, sense icone i un al costat de l'altre */
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+/* estil per l'enllaç dels menus, de color blanc, sense subrajat */
+   nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+/* estil per quan passen per damunt l'enllaços del menu, que canviin de color i de fons */
+  nav ul li a:hover {
+    background-color: orange;
+    color: black;
+    border-radius: 6px;
+  }
+
+/* estil de la part principal de la pàgina, color de fons */
+  main {
+    background-color: white;
+  }
+
+/* estil de les seccions de la pàgina, color de fons, margenes i un al costat de l'altre */
+  section {
+    margin: auto;
+    background-color: lemonchiffon;
+    display: flex;
+  }
+
+/* estil dels enllaços que hi ha dins les seccions, color de la lletra */
+  section a {
+    color:black;
+  }
+
+/* estil dels enllaços que hi ha dins les seccions quan es passen per damunt, canvi de color de fons i per la lletra */
+  section a:hover {
+    border-bottom: 1px solid;
+    background: hsl(80, 7%, 91%);
+    color:black;
+  }
+
+/* estil per els diferents parts que hi ha a les seccions, marges, color de fons, tipus de lletra, amplada*/
+  article {
+    margin: 5px;
+    width: 100%;
+    background-color: #ffb458;
+    font-family:arial;
+  }
+
+/* estil per el peu de pàgina, color de fons, tipus de lletra i color de la lletra*/
+  footer {
+    background-color: black;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+/* estil dels parragrafs generals*/
+  p {
+    text-align: justify;
+  }
+
+/* estil dels parragrafs amb una classe per definir que l'alineació sigui al centre*/
+  p.centrar{
+  text-align:center;
+  }
+
+/* estil pels emcapçalaments, alineats al centre*/
+  h1,h2,h3 {
+    text-align: center;
+  }
+
+/* estil de la imatge que hi ha a la pàgina d'inici, text al costat de la imatge amb un marge establert*/
+  img.imagenInicio {
+    float: left;
+    margin-right: 10px;
+  }
+
+/* estil per centrar les imatges*/
+  div.imagenCentrar {
+    text-align:center;
+  }
+
+/* estil per les taules, color de fons, color del borde, alineació del texte, etc*/
+  table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(95, 61, 2);
+    text-align:center;
+  }
+
+/* estil es especificar color de fons de la capçalera de la taula*/
+  .filas th{
+    background: rgb(183, 105, 9);
+    color: white; 
+  } 
+
+/* estil per aconseguir que el color de fons de la taula alterni, aquest especifica les files impars*/
+  .filas tr:nth-child(odd){
+    background: rgb(223, 155, 60);
+ }
+
+/* estil per aconseguir que el color de fons de la taula alterni, aquest especifica les files pars*/
+ .filas tr:nth-child(even){
+  background: white;
+ }
+ 
